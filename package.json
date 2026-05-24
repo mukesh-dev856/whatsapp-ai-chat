@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-ai-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "backend": "cd backend && npm run start:dev",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "WhatsApp AI Full Stack Project",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "concurrently": "^9.0.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
